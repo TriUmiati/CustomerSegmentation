@@ -38,6 +38,11 @@ point_notflight : Poin yang tidak digunakan oleh members
 Sumber dataset : https://www.kaggle.com/c/sa-customer-segmentation/data 
 
 ## Data Insights
+Insight yang digali dilakukan berdasarkan Recency, Frequency, dan Monetary (RFM). Analisis RFM (Recency, Frequency, Monetary) adalah model pemasaran yang terbukti untuk segmentasi pelanggan berbasis perilaku. Ini mengelompokkan pelanggan berdasarkan riwayat transaksi mereka – seberapa baru, seberapa sering, dan berapa banyak yang mereka beli. RFM membantu membagi pelanggan ke dalam berbagai kategori atau kelompok untuk mengidentifikasi pelanggan yang lebih mungkin merespons promosi dan juga untuk layanan personalisasi di masa mendatang.
+Untuk menganalisis RFM dalam proyek ini, dibutuhkan beberapa detail dari setiap pelanggan seperti Recency (R) yaitu kapan terakhir kali pelanggan menggunakan layanan maskapai, 
+Frequency (F) yaitu frekuensi pelanggan menggunakan layanan maskapai, dan Monetary (M) yaitu total jarak yang ditempuh pelanggan.
+
+RFM yang berhasil digali dari dataset project ini adalah :
 * Monetary dan Frequency memiliki korelasi positif yang kuat (0.85). Artinya semakin besar variabel Monetary maka semakin besar pula variabel Frequency. Sementara itu, Frequency dan Recency memiliki korelasi negatif yang kecil (-0.4), demikian pula dengan Monetary dan Recency yang juga memiliki korelasi negatif yang kecil (-0.37). Artinya tidak terlalu berhubungan antara besar variabel Frequency dan Monetary terhadap besar variabel Recency.
 * Recency : Jarak waktu penerbangan terakhir ke pesanan penerbangan paling akhir pelanggan yang paling singkat adalah 1 hari, paling panjang adalah 731 hari dan rata-rata adalah 176 hari.
 * Frequency : Rata-rata jumlah penerbangan pelanggan adalah 11 kali, jumlah penerbangan paling sedikit adalah 2, dan jumlah penerbangan paling banyak yang terjadi pada penumpang adalah 213 kali.
