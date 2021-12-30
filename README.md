@@ -1,4 +1,4 @@
-# Customer Segmentation
+# Customer Segmentation : Airlines Customer
 
 ## About the project
 Dalam proyek ini, saya melakukan segmentasi pelanggan (customer segmentation) sebuah perusahaan penerbangan. Segmentasi pelanggan adalah praktik memisahkan pelanggan kedalam kelompok-kelompok yang memiliki kesamaan diantara pelanggan disetiap cluster. Saya akan membagi pelanggan menjadi beberapa segmen menggunakan algoritma K-Means Clustering berdasarkan RFM (Recency, Frequency, and Monetary). 
